@@ -25,22 +25,35 @@ h6 {
 }
 
 .education-entry h3 {
-  text-align: left;
   padding: 10px 0;
+  margin: 20px;
 }
-
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: rgba(255,255,255,0.9);
   line-height: 48px;
-  display: inline;
+  font-size: 3.3em;
+}
+
+.subtitle {
+  color: #01c3b5;
+}
+
+#topContacts {
+  margin-bottom: 40px;
+}
+
+#workExperience,
+#projects, 
+#education {
+  text-align: center;
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #e0e0e0;
   line-height: 29px;
   padding: 10px;
 }
@@ -73,7 +86,7 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: left;
+
 }
 
 .location-text {
@@ -81,7 +94,6 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: right;
 
 }
 
@@ -98,6 +110,30 @@ a {
   display: block;
 }
 
+#header {
+  text-align: center;
+}
+
+#header a {
+  display: inline;
+  font-weight: bold;
+  color: #01c3b5;
+}
+
+#header a:hover {
+  color: #b9a9a9;
+}
+
+#footerContacts a {
+  display: inline;
+  font-weight: bold;
+  color: #01c3b5;
+}
+
+#footerContacts a:hover {
+  color: #b9a9a9;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -106,21 +142,21 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #01c3b5;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
-}
-
-.orange-text {
-  color: #f5ae23;
+.blue {
+  background-color: #01c3b5;
 }
 
 .white-text {
+  color: white;
+}
+
+.blue-text {
   font-weight: bold;
-  color: #fff;
+  color: #01c3b5;
 }
 
 .gray {
@@ -163,11 +199,19 @@ ul {
 }
 
 .biopic {
-  float: left;
+  /*float: left;*/
   padding: 10px;
   width: 200px;
   display: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
 }
+
+.project-img {
+  max-width: 100%;
+}
+
 
 img {
   padding: 10px;
