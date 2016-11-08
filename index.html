@@ -24,6 +24,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
   <!-- Load the page styles. -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/skillset.css">
   <script src="https://d3js.org/d3.v4.min.js"></script>
 
   <!--
@@ -42,7 +43,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     display by looking at the id or at what's written between the <h2> tags.
     -->
     <div id="header" class="center-content clear-fix">
-      <ul id="topContacts" class="flex-box"></ul>
+      <ul id="topContacts" class="flex-box"></ul> 
     </div>
  
 
@@ -143,5 +144,53 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
+  <script type="text/javascript">
+
+// adicionando barras de xp
+var object = [
+    
+    {
+
+      "headline": "JavaScript",
+      "value": 5,
+      "length": 9,
+      "description": "Details 1"
+
+    }, {
+
+      "headline": "JQuery",
+      "value": 5,
+      "length": 9,
+      "description": "Details 2"
+
+    }, {
+
+      "headline": "Html",
+      "value": 7,
+      "length": 9,
+      "description": "Details 2"
+
+    }, {
+
+      "headline": "Css",
+      "value": 6,
+      "length": 9,
+      "description": "Details 2"
+
+    }
+
+
+
+];
+
+$(document).ready(function(){
+    $("#skillset").skillset({
+      object:object,
+      duration:80
+    });
+});
+
+</script>
+  <script src="js/skillset.js"></script>
 </body>
 </html>
