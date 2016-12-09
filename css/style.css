@@ -143,7 +143,6 @@ a {
 
 #skills-h3 {
   color: #01c3b5;
-  display: none;
 }
 
 .blue {
@@ -261,11 +260,23 @@ background-color: #01c3b5;
   #lets-connect {
     margin-top: 5%;
   }
+   .circle {
+    display: none;
+  }
+  .flex-column {
+    display: block;
+  }
 }
 
 @media only screen and (max-width:900px) {
   .biopic {
     width: 175px;
+  }
+   .circle {
+    display: none;
+  }
+  .flex-column {
+    display: block;
   }
 }
 
@@ -276,8 +287,14 @@ background-color: #01c3b5;
   .biopic {
     width: 150px;
   }
-  .welcome-message {
+  #skill-h3 {
+    display: block;
+  }
+  .circle {
     display: none;
+  }
+  .flex-column {
+    display: block;
   }
 }
 
