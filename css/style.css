@@ -185,9 +185,10 @@ a {
 
 .flex-column {
   display: flex;
-  flex-direction: column;
   flex-wrap: nowrap;
   padding: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .center-content {
@@ -225,6 +226,35 @@ span {
   text-align: center;
 }
 
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.skill-text {
+  margin-right: 5px;
+}
+
+/*javascript*/
+#skills li:nth-child(1) span:nth-child(6),#skills li:nth-child(1) span:nth-child(5),#skills li:nth-child(1) span:nth-child(4),#skills li:nth-child(1) span:nth-child(3), #skills li:nth-child(1) span:nth-child(2){
+background-color: #01c3b5;
+}
+/*jquery*/
+#skills li:nth-child(2) span:nth-child(5),#skills li:nth-child(2) span:nth-child(4),#skills li:nth-child(2) span:nth-child(3),#skills li:nth-child(2) span:nth-child(2){
+background-color: #01c3b5;
+}
+
+/*html*/
+#skills li:nth-child(3) span:nth-child(6),#skills li:nth-child(3) span:nth-child(5),#skills li:nth-child(3) span:nth-child(4),#skills li:nth-child(3) span:nth-child(3), #skills li:nth-child(3) span:nth-child(2){
+background-color: #01c3b5;
+}
+
+/*css*/
+#skills li:nth-child(4) span:nth-child(5),#skills li:nth-child(4) span:nth-child(4),#skills li:nth-child(4) span:nth-child(3),#skills li:nth-child(4) span:nth-child(2){
+background-color: #01c3b5;
+}
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {

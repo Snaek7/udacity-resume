@@ -73,10 +73,6 @@ bio.display = function(){
 	var formattedRole = HTMLheaderRole.replace(data, "Front-End Developer");
 	$("#header").append(formattedName);
 	$("#header").append(formattedRole);
-	 
-	$(document).ready(function(){//adicionando barra de xp apenas após todo o documento ter sido carregado
-		$("#skills").append(HTMLgraphic);
-	});
 
 
 	var formattedPic =  HTMLbioPic.replace(data, bio.bioPic);

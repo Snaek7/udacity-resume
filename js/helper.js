@@ -14,7 +14,6 @@ replace the %data% placeholder text you see in them.
 */
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span class="subtitle">%data%</span>';
-var HTMLgraphic = '<div id="skillset"></div>';
 var HTMLcontactGeneric = '<li class="flex-item"><span class="white-text">%contact%</span><span class="blue-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="white-text">mobile</span><span class="blue-text">%data%</span></li>';
 var HTMLemail = '<li class="flex-item"><span class="white-text">email</span><span class="blue-text">%data%</span></li>';
@@ -27,7 +26,7 @@ var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
+var HTMLskills = '<li class="flex-item"><span class="white-text skill-text">%data%</span><span class="circle jskill "></span class="circle jskill "><span class="circle jskill "></span><span class="circle jskill "></span><span class="circle jskill hskill"></span><span class="circle jskill "></span><span class="circle jskill "></span><span class="circle jskill "></span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';
